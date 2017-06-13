@@ -1,0 +1,9 @@
+node_modules/
+frontend/resources/
+vendor/
+public/assets/
+sftp-config.json
+
+### Phalcon ###
+cache/
+.DS_Store

@@ -1,0 +1,55 @@
+{
+  "name": "invManager",
+  "version": "1.0.0",
+  "description": "Version of followmeup using phalcon PHP",
+  "author" : { 
+    "name" : "Leonardo Leao",
+    "email" : "leomleao@gmail.com",
+    "url" : "http://leoleao.ml"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "application": {
+    "main": "./public/index.php",
+    "paths": {
+      "frontend":{
+        "root": "./frontend"
+      },
+      "build":{
+        "root": "./public/assets"
+      }
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workPath": "./public/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://leomleao@bitbucket.org/leomleao/followmeup.git"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/leomleao/followmeup#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect-php": "0.0.8",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pxtorem": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "http-proxy": "^1.15.2"
+  }
+}
